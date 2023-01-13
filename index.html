@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converter</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<img class="background" src="scales.png">
+	<div class="appConverter">
+		<p class="textApp">MASS UNIT CONVERTER</p>
+		<hr style="margin-top: 50px">
+		
+		<input type="text" id="grams"><br><span id="error"></span>
+		<label class="label">Value in Grams</label>
+		<br>
+
+		<p>
+			Convert to  
+			<select id="type">
+				<option value="Pounds">Pounds</option>
+				<option value="Kilograms">Kilograms</option>
+				<option value="Ounces">Ounces</option>
+				<option value="Stones">Stones</option>
+			</select>
+		</p>
+
+		<button id="btn">Convert</button>
+		<p id="results"></p>
+	</div>
+</body>
+	<script src="main.js"></script>
+</html>

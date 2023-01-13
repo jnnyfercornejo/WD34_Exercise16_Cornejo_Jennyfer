@@ -1,0 +1,78 @@
+html{
+	height: 100%;
+}
+body{
+	background-image: url("scales.png");
+	background-size: cover;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 0;
+}
+.background{
+	max-width: 100%;
+	width: 1180px;
+	height: auto;
+	position: absolute;
+	display: flex;
+	top: 5%;
+	left: 15%;
+	filter: blur(8px);
+}
+.textApp{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: lightblue;
+	text-shadow: 5px rgb(13, 67, 83);
+}
+.label{
+	font-size: 13px;
+	display: block;
+	text-align: left;
+	padding: 5px;
+}
+#results{
+	font-size: xx-large;
+	padding-top: 50px;
+	color: rgb(199, 255, 221);
+}
+span{
+	color: rgb(255, 8, 8);
+	white-space: nowrap;
+	font-size: 20px;
+}
+.appConverter{
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	font-size: x-large;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	background: #0e243388;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 5px 200px;
+	box-shadow: rgb(38, 57, 77 ) 0px 30px 50px -10px;
+}
+input{
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+	color: white;
+	width: 460px;
+}
+select{
+	outline: none;
+	margin-left: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+button{
+	color: #000000;;
+	padding: 10px 50px;
+	margin-top: 120px;
+	background: rgba(161, 61, 3, 0.342);
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px double rgba(161, 61, 3, 0.658);
+}
